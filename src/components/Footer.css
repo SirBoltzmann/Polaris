@@ -1,0 +1,92 @@
+.footer {
+    padding: 4rem 6rem;
+    background-color: rgba(15, 15, 15, 0.949);
+    color: #ffffff;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ========== FOOTER LOGO && IMG ANIMATION ========== */
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.footer-logo img{
+    width: 3.33rem;
+    margin-left: 1.2rem;
+    animation: rotateAtom 8s infinite linear;
+}
+
+@keyframes rotateAtom {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ========= ========== ========== ========== ======== */
+
+.top i {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 1rem;
+    transition: all 0.6s ease-in-out;
+}
+
+.top i:hover {
+    transform: scale(1.1) translateY(-6px);
+}
+
+.bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+
+/* RESPONSIVE COMPONENT */
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    .footer i {
+        margin: 1rem 1rem 0 0;
+    }
+
+    .bottom div {
+        width: 50%;
+    }
+}
