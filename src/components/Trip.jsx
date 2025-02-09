@@ -1,4 +1,4 @@
-import './trip.css';
+import './Trip.css';
 import TripData from './TripData';
 import Wasteland5 from '../assets/five.jpg';
 import Wasteland6 from '../assets/six.jpg';
