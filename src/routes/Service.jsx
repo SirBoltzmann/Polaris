@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import ServiceImg from '../assets/nine.jpg';
 import Footer from '../components/Footer';
 import Trip from '../components/Trip';
+import Trip2 from '../components/Trip2';
 
 
 function Service () {
@@ -16,6 +17,7 @@ function Service () {
                 btnClass='hide'
             />
             <Trip />
+            <Trip2 />
             <Footer />
         </>
     );
